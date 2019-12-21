@@ -1,0 +1,37 @@
+.container.main-content {
+    margin-top: 10px;
+}
+
+.row-notes-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-note {
+    width: 300px;
+    margin: 0 0 15px 15px;
+}
+
+.card-note > .card-header{
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form-search {
+    width: 370px;
+    margin: 0 auto;
+}
+
+.form-search .btn{
+    margin: 0;
+}
+
